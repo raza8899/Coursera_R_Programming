@@ -1,5 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
 ## This code basically calculates the inverse of matrix and what does more is interesting, 
 ## it uses the cached data to increasing the processing speed i.e it checks if the inverse of
 ## matrix is already present in the cached memory. If so then it uses it otherwise it calculates it.
