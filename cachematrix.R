@@ -1,9 +1,9 @@
-## This code basically calculates the inverse of matrix and what does more is interesting, 
-## it uses the cached data to increasing the processing speed i.e it checks if the inverse of
+## This code basically calculates the inverse of matrix and what more it does is interesting, 
+## it uses the cached data for increasing the processing speed i.e it checks if the inverse of
 ## matrix is already present in the cached memory. If so then it uses it otherwise it calculates it.
 
-## This function makes the inverse of matrix stored in cached memory of R and 
-## returns the cached data if present
+## This function helps to store the inverse of matrix  in cached memory and 
+## returns the cached data if present.
 makeCacheMatrix <- function(matrix = matrix()) {
     inverse_of_matrix <- NULL
     setmatrix <- function(y){
